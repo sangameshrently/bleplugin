@@ -1,0 +1,56 @@
+exports.CMD_READ_LOCK_INFO = "f5";
+exports.CMD_CONFIG_DEVICE = "f6";
+exports.CMD_CONFIG_LORA_LOCK_DEVICE = "5B";
+exports.CMD_CONFIG_IBEACON = "f6";
+exports.CMD_READ_CONFIG = "f7";
+exports.CMD_READ_LORA_LOCK_CONFIG = "5C"; // java says "eC" but ios is 5C
+exports.CMD_READ_IBEACON = "f7";
+exports.CMD_CHANGE_LOCK_NAME = "e9";
+exports.CMD_CHANGE_LOCK_PSW = "f8";
+exports.CMD_READ_INPUT = "fA";
+exports.CMD_CONFIG_BEACON_UUID = "eA";
+exports.CMD_OPEN_LOCK = "1B";
+exports.CMD_OPEN_LOCK_KEEP_ACT_TIME = "30";
+exports.CMD_CLOSE_LOCK = "1C";
+exports.CMD_COMMU_TRANSMIT = "fD";
+exports.CMD_OPEN_LOCK_EXT = "eE";
+exports.CMD_CLOSE_LOCK_EXT = "eF";
+exports.CMD_PROJ_OPEN_LOCK = "a0";
+exports.CMD_PROJ_CLOSE_LOCK = "c1";
+exports.CMD_READ_PASWD_CARD_KEY = "12";
+exports.CMD_ADD_PASWD_CARD_KEY = "23";
+exports.CMD_DELETE_PASWD_CARD_KEY = "24";
+exports.CMD_FLASH_READ_PASWD_CARD_KEY = "16";
+exports.CMD_FLASH_ADD_PASWD_CARD_KEY = "27";
+exports.CMD_FLASH_DELETE_PASWD_CARD_KEY = "28";
+exports.CMD_READ_VERSION_INFO = "eA";
+exports.CMD_READ_TOTAL_INFO = "cB";
+exports.CMD_READ_TIME = "7C";
+exports.CMD_SYNC_TIME = "7D";
+exports.CMD_REGISTE_DEVICE = "fE";
+exports.CMD_RESET_DEVICE = "7F";
+exports.CMD_DEFAULT_DEVICE = "79";
+exports.CMD_READ_DEVICE_UNIT = "d1";
+exports.CMD_CONFIG_DEVICEID_AND_UNIT = "d2";
+exports.CMD_READ_COMMUNITY_UNIT = "d3";
+exports.CMD_CONFIG_COMMUNITY_UNIT = "c4";
+exports.CMD_DEL_COMMUNITY_UNIT = "e5";
+exports.CMD_READ_LOCK_RECORD = "46"; /* with index */
+exports.CMD_DEL_LOCK_RECORD = "47"; /* with mask */
+exports.CMD_READ_GPRS_ANP = "a4"; //
+exports.CMD_SET_GPRS_ANP = "a3";
+exports.CMD_INIT_DEVICE_PASSWORD = "59";
+exports.CMD_INT_CUSTOM_CODE = "70";
+exports.CMD_ADJUST_SENSITIVITY = "71";
+exports.CMD_SET_LORA_LOCK_CONF = "6D";
+exports.CMD_READ_LORA_LOCK_CONF = "6E";
+exports.CMD_SET_LORA_SLAVE_LIST = "6F";
+exports.CMD_FACTORY_TEST = "85";
+
+exports.CMD_UNDEFINED = "00";
+
+exports.CMD_HEADER_CLIENT_SERVER = "AA55";
+exports.CMD_HEADER_SERVER_CLIENT = "55AA";
+exports.ARG_SYSTEM_CODE = "ffff";
+
+Object.freeze(exports);
